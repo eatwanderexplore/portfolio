@@ -85,4 +85,83 @@ header .nav a {
 
 #projects {
     background-color: lightgray;
-}
+    position: relative;
+    text-align: center;
+    display: block;
+    background-color: rgb(190, 188, 188);
+    justify-content: space-between;
+    left: 0px;
+    padding: 1rem;
+  }
+
+
+
+ .project-head h2 {
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 1px 1px 2px #cc00aa;
+  }
+
+  .project-cards {
+    position: relative;
+    display: flex;
+  text-align: center;
+  justify-content: center;
+  }
+
+  .webpage {
+    flex: 1;
+    border: solid 1px #cc00aa;
+    background-color: #15db9f;
+    align-self: center;
+    margin: 1rem!important;
+    padding: 1rem;
+    min-width: 0;
+    max-height: 40rem;
+    color: white;
+    text-shadow: 1px 1px 2px #cc00aa;
+    font-size: 1.5rem;
+  }
+    
+    .webpage img {
+      width: 90%;
+      height: 65%;
+      margin: 0 auto;
+      padding-top: 1rem;
+      justify-content: space-between;
+      opacity: .8;
+      
+    }
+
+    .webpage a{
+        color: white;
+        text-decoration: none;
+    }
+
+
+    @media only screen and (max-width: 760px) {
+         .project-cards {
+          position: relative;
+          display: block!important;
+          width: 100%;
+          text-align: center!important;
+          margin: 0 auto;
+         }
+
+         .webpage {
+          flex: 1;
+          border: solid 1px #cc00aa;
+          align-self: center;
+        }
+
+         .webpage img {
+          object-fit: cover;
+          margin: 0 auto;
+          padding-top: 1rem;
+          justify-content: space-between;
+          opacity: .8;
+          
+        }
+    
+
+    }
