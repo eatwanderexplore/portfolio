@@ -100,7 +100,7 @@ header .nav a {
     font-size: 2.5rem;
     color: white;
     text-shadow: 1px 1px 2px #cc00aa;
-  }
+      }
 
   .project-cards {
     position: relative;
@@ -173,7 +173,66 @@ header .nav a {
         
     }
 
+    .skill-header h2 {
+        font-size: 2.5rem;
+        color: white;
+        text-shadow: 1px 1px 2px #cc00aa;
+        background-color: #5e17eb;
+        text-align: center;
+      }
+        
+
     .devskills {
         display: flex;
         column-gap: 2rem;
     }
+
+    #contact {
+        display: block;
+        text-align: center;
+    }
+  
+    .contact-header h2 {
+        font-size: 2.5rem;
+        color: white;
+        text-shadow: 1px 1px 2px #5e17eb;
+        background-color: #cc00aa;
+        text-align: center;
+      }
+      .contact-body {
+        display: flex;
+        align-items: center;
+  justify-content: center;
+        column-gap: 5rem;
+    }
+    .contact-box {
+        display:flex;
+        flex-wrap: wrap;
+        text-align: center;
+        vertical-align: center;
+    }
+
+      .contact-icon {
+        text-align: center;
+      }
+
+      .contact-icon img{
+        border: solid black 5px;
+      }
+      .contact-icon img:hover{
+        border-bottom: solid black 2px;
+        border-right: solid black 2px;
+      }
+      .contact-image img{
+        max-width: 500px;
+        max-height: auto;
+      }
+
+      footer {
+        background-color: lightgray;
+        padding-top: 5rem;
+      }
+
+      footer a{
+text-decoration: none;
+      }
