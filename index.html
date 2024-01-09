@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jenny Urias Portfolio</title>
     <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montez&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
@@ -15,7 +16,14 @@
     
        <ul>
           <li><a href='#about'>About me</a></li>
-          <li><a href='#projects'>Projects</a></li>
+          <li class="dropdown" id="projects-dropdown">
+            <a href="#projects">Projects </a>
+            <ul class="dropdown-menu">
+              <li><a href="https://github.com/eatwanderexplore/fotomatic" target="_blank">Fotomatic</a></li>
+              <li><a href="https://github.com/eatwanderexplore/newnentaiken" target="_blank">Newnentaiken</a></li>
+              <li><a href="https://github.com/eatwanderexplore/responsive-club" target="_blank">Responsive site</a></li>
+            </ul>
+          </li>
           <li><a href='#skills'>Skills</a></li>
           <li><a href='#contact'>Contact</a></li>
         </ul>
@@ -89,7 +97,7 @@
         <h2>Contact</h2>
         </div>
         <div class="contact-body">
-            <div clas="contact-box">
+            <div class="contact-box">
         <div class="contact-icon">
             <a href="mailto:jennythecurious+contactme@gmail.com" target="_blank">
                 <img src="./images/email.jpg" alt="email">
@@ -110,7 +118,7 @@
 </body>
 <footer>
     <p>
-        ©2023 <a href='www.eatwanderexplore.com'>Newnentaiken</a>
+        ©2023 <a href='https://www.eatwanderexplore.com'>Newnentaiken</a>
     </p>
 </footer>
 </html>
